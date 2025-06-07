@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ShinChanXRS | Futuristic Portfolio</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto&display=swap');
+
+  /* Reset & base */
+  * {
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  body {
+    background: #0f111a;
+    color: #a0eaff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  header {
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 0.15em;
+    font-size: 2.5rem;
+    border-bottom: 1px solid #1a1f36;
+    color: #33f6ff;
+    text-shadow: 0 0 8px #33f6ff;
+  }
+
+  main {
+    flex: 1;
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+  }
+
+  section {
+    margin-bottom: 4rem;
+  }
+
+  h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    color: #00f0ff;
+    margin-bottom: 1rem;
+    border-left: 4px solid #00f0ff;
+    padding-left: 0.75rem;
+    text-shadow: 0 0 6px #00f0ff;
+  }
+
+  p {
+    line-height: 1.6;
+    color: #9eeeff;
+  }
+
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 2rem;
+  }
+
+  .project-card {
+    background: #111822;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 12px #00f0ff33;
+    transition: box-shadow 0.3s ease;
+  }
+  .project-card:hover {
+    box-shadow: 0 0 20px #00f0ffcc;
+  }
+
+  .project-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: #33f6ff;
+  }
+
+  .project-desc {
+    font-size: 0.95rem;
+    color: #a0eaffdd;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #0a0d14;
+    font-size: 0.9rem;
+    color: #33f6ff88;
+  }
+
+  /* Button style */
+  .btn {
+    background: transparent;
+    border: 2px solid #33f6ff;
+    color: #33f6ff;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-top: 1rem;
+    display: inline-block;
+  }
+
+  .btn:hover {
+    background: #33f6ff22;
+  }
+
+  /* Social links */
+  .social {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  .social a {
+    color: #33f6ff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  .social a:hover {
+    color: #00f0ff;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  ShinChanXRS
+</header>
+
+<main>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a futuristic coder and digital creator passionate about blending technology with creativity to build sleek, modern web experiences. My skills include front-end development, UI/UX design, and futuristic digital aesthetics.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <div class="project-title">Neon Portfolio</div>
+        <div class="project-desc">A glowing portfolio website with futuristic design and smooth animations.</div>
+      </div>
+      <div class="project-card">
+        <div class="project-title">CyberChat App</div>
+        <div class="project-desc">A real-time chat app with cyberpunk style and encrypted messaging.</div>
+      </div>
+      <div class="project-card">
+        <div class="project-title">AI Art Generator</div>
+        <div class="project-desc">Web app that generates futuristic artwork using AI algorithms.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out to me via email or connect on social media.</p>
+    <a href="mailto:shinchanrs890@gmail.com" class="btn">Email Me</a>
+
+    <div class="social" aria-label="social links">
+      <a href="https://github.com/yourusername" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">🐙</a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">🔗</a>
+      <a href="https://twitter.com/yourusername" target="_blank" rel="noopener" title="Twitter" aria-label="Twitter">🐦</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 ShinChanXRS. All rights reserved.
+</footer>
+
+</body>
+</html>
